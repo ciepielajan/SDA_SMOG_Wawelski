@@ -23,11 +23,42 @@
 
 4 EDA
 
+> wymiary zbioru danych: (481 208, 10)
+
 4.1. Ile jest Nan w danych kolumnach
+
+|             |      0 |
+|:------------|-------:|
+| UTC time    |      0 |
+| temperature | 109558 |
+| humidity    | 109638 |
+| pressure    | 172529 |
+| pm1         |  92854 |
+| pm25        |  92835 |
+| pm10        |  92832 |
+| id          |      0 |
+| latitude    |      0 |
+| longitude   |      0 |
 
 4.2. Czy można znaleźć brakujące dane lub czymś je zastąpić
 
+> Sprawdzam zachowanie podelu po usunięciu wszysktich wartośći Nan. Ilość wymiarów po usunięciut to: (291754, 10)
+
 4.3. Jakie zastosować normy i ich zakresy dla stężenia pm10 w celu określenia jakości powietrza
+
+|       |        pm10 |
+|:------|------------:|
+| count | 291754      |
+| mean  |     49.5892 |
+| std   |     53.3795 |
+| min   |     -1      |
+| 40%   |     26      |
+| 50%   |     34      |
+| 75%   |     61      |
+| 90%   |    102      |
+| 95%   |    154      |
+| 99%   |    282      |
+| max   |    664      |
 
 Wnioski
 > podejrzana wartość to `min = -1`. Poziom stężenia nie może być ujemny. Dane prawdopodobnie wymagają dalszego oczyszczenia. 
