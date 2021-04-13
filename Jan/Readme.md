@@ -26,3 +26,13 @@ Model:
 DecisionTreeRegressor na domyślnych parametrach.
 
 > Model przewidział wartość P10 = 6.37 , podczas gdy prawidłowa wartość to 6.00 . Uznaje że jest to marginalna pomyłka. Jutro sprawdzę predykcje na innych modelach oraz zastosuję metryki oceny predykcji modelów  aby mieć co porównywać
+ 
+
+[12.04]
+Dane:
+usunięte wszystkie nulle, wartości bez normalizacji, dodatkowe cechy to: miesiac, dzień, godzina. Dane nie zostały podzielone na zbiór treningowy i testowy. 
+
+Model:
+LinearRegression na domyślnych parametrach.
+
+> Model przewidział wartość P10 = 1.60 , podczas gdy prawidłowa wartość to 6.00 . Uznaje że jest to marginalna pomyłka. Jutro sprawdzę predykcje na innych modelach oraz zastosuję metryki oceny predykcji modelów  aby mieć co porównywać
