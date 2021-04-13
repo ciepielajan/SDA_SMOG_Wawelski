@@ -11,11 +11,6 @@ Wyznaczenie punktów -   haversine distance
 
 https://stackoverflow.com/a/40343603   
 
-https://stackoverflow.com/questions/55199436/generate-grid-of-latitude-longitude-coordinates-that-fall-within-polygon   
-
-
-
-https://www.jpytr.com/post/analysinggeographicdatawithfolium/       
 
 # Wnioski
 [11.04]
