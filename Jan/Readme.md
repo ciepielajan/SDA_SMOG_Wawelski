@@ -1,7 +1,5 @@
 #### Inspiracja:
 
-Zrobienie predhcjo na całe 24h i dodanie do folium prze
-
 K-najbliższych sąsiadów -regression (odległość, haversine distance- odległość km )  
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.haversine_distances.html 
 https://stackoverflow.com/a/29958276
