@@ -1,39 +1,4 @@
-#### Inspiracja:
-
-K-najbliższych sąsiadów -regression (odległość, haversine distance- odległość km )  
-https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.haversine_distances.html 
-https://stackoverflow.com/a/29958276
-
-
-Wyznaczenie punktów -   haversine distance 
-
-https://stackoverflow.com/a/40343603   
-
-
-# Wnioski
-[11.04]
-Dane:
-usunięte wszystkie nulle, wartości bez normalizacji, dodatkowe cechy to: miesiac, dzień, godzina. Dane nie zostały podzielone na zbiór treningowy i testowy. 
-
-Model:
-DecisionTreeRegressor na domyślnych parametrach.
-
-> Model przewidział wartość P10 = 6.37 , podczas gdy prawidłowa wartość to 6.00 . Uznaje że jest to marginalna pomyłka. Jutro sprawdzę predykcje na innych modelach oraz zastosuję metryki oceny predykcji modelów  aby mieć co porównywać
- 
-
-[12.04]
-Dane:
-usunięte wszystkie nulle, wartości bez normalizacji, dodatkowe cechy to: miesiac, dzień, godzina. Dane nie zostały podzielone na zbiór treningowy i testowy. 
-
-Model:
-LinearRegression na domyślnych parametrach.
-
-> Model przewidział wartość P10 = 1.60 , podczas gdy prawidłowa wartość to 6.00 . Uznaje że jest to marginalna pomyłka. Jutro sprawdzę predykcje na innych modelach oraz zastosuję metryki oceny predykcji modelów  aby mieć co porównywać
-
-
-
-
-# SDA_SMOG_Wawelski
+# SDA SMOG Wawelski - Rozkład jazdy
 
 1 Załadowanie plików
 
@@ -140,3 +105,18 @@ Wnioski:
 > aby upewnić się trzeba zastosować predykcję dla dnia w którym na pewno było wysokie stęrzenie pm10
 
 10.3 Utworzenie modelu K-najbliższych sąsiadów -regression (odległość, haversine distance- odległość km )
+
+
+
+
+#### Inspiracja:
+
+K-najbliższych sąsiadów -regression (odległość, haversine distance- odległość km )  
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.haversine_distances.html 
+https://stackoverflow.com/a/29958276
+
+
+Wyznaczenie punktów -   haversine distance 
+
+https://stackoverflow.com/a/40343603   
+
