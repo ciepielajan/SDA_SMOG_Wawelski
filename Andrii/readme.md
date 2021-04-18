@@ -1,1 +1,1 @@
-wyniki
+NaNy  jeszcze do  sprawdźenia :))
